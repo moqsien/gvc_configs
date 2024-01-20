@@ -1,0 +1,362 @@
+{
+    "code": {
+        "cdn_url": "vscode.cdn.azure.cn",
+        "download_url": "https://code.visualstudio.com/sha?build=stable",
+        "ext_identifiers": [
+            "moqsien.easynotes",
+            "doggy8088.go-extension-pack",
+            "galkowskit.go-interface-annotations",
+            "liuchao.go-struct-tag",
+            "tabnine.tabnine-vscode",
+            "gruntfuggly.todo-tree",
+            "zxh404.vscode-proto3",
+            "premparihar.gotestexplorer",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "donjayamanne.python-environment-manager",
+            "alefragnani.project-manager",
+            "yzhang.markdown-all-in-one",
+            "mhutchie.git-graph",
+            "asvetliakov.vscode-neovim",
+            "ms-ceintl.vscode-language-pack-zh-hans",
+            "bracketpaircolordlw.bracket-pair-color-dlw",
+            "rust-lang.rust-analyzer",
+            "vue.volar",
+            "joe-re.sql-language-server",
+            "akamud.vscode-theme-onedark",
+            "pkief.material-icon-theme"
+        ],
+        "stable_url": "az764295.vo.msecnd.net"
+    },
+    "cpp": {
+        "installer_url": "https://www.cygwin.com/setup-x86_64.exe",
+        "mirror_url": [
+            "https://mirrors.ustc.edu.cn/cygwin/",
+            "https://mirrors.zju.edu.cn/cygwin/",
+            "https://mirrors.tuna.tsinghua.edu.cn/cygwin/",
+            "https://mirrors.aliyun.com/cygwin/"
+        ],
+        "msys_installer_url": "https://github.com/msys2/msys2-installer/releases/latest/msys2-x86_64-latest.exe",
+        "msys_mirror_urls": {
+            "mirrorlist.clang32": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/clang32/",
+            "mirrorlist.clang64": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/clang64/",
+            "mirrorlist.mingw": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/$repo/",
+            "mirrorlist.mingw32": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/i686/",
+            "mirrorlist.mingw64": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/x86_64/",
+            "mirrorlist.msys": "https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/$arch/",
+            "mirrorlist.ucrt64": "https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/ucrt64/"
+        },
+        "vcpkg_tool_url": "https://github.com/microsoft/vcpkg-tool/archive/refs/heads/main.zip",
+        "vcpkg_url": "https://github.com/microsoft/vcpkg-tool/archive/refs/heads/main.zip",
+        "win_vcpkg_tool_urls": {
+            "amd64": "https://github.com/microsoft/vcpkg-tool/releases/latest/download/vcpkg.exe",
+            "arm64": "https://github.com/microsoft/vcpkg-tool/releases/latest/download/vcpkg-arm64.exe"
+        }
+    },
+    "dav": {
+        "default_webdav_config_path": "/Users/moqsien/.gvc/webdav.json",
+        "default_webdav_host": "https://dav.jianguoyun.com/dav/",
+        "default_webdav_local_dir": "/Users/moqsien/.gvc/backup",
+        "default_webdav_remote_dir": "/gvc_backups",
+        "files_to_sync": {
+            "darwin": {
+                "chrome-bookmark": "",
+                "nvim-init.vim": "$home$.config/nvim/init.vim",
+                "vscode-extensions.yml": "",
+                "vscode-keybindings.json": "$home$Library/Application Support/Code/User/keybindings.json",
+                "vscode-user-settings.json": "$home$Library/Application Support/Code/User/settings.json"
+            },
+            "linux": {
+                "chrome-bookmark": "",
+                "nvim-init.vim": "$home$.config/nvim/init.vim",
+                "vscode-extensions.yml": "",
+                "vscode-keybindings.json": "$home$.config/Code/User/keybindings.json",
+                "vscode-user-settings.json": "$home$.config/Code/User/settings.json"
+            },
+            "windows": {
+                "chrome-bookmark": "",
+                "nvim-init.vim": "$home$\\AppData\\Local\\nvim\\init.vim",
+                "vscode-extensions.yml": "",
+                "vscode-keybindings.json": "$appdata$Code\\User\\keybindings.json",
+                "vscode-user-settings.json": "$appdata$Code\\User\\settings.json"
+            }
+        }
+    },
+    "docker": {
+        "docker_install_script": "https://test.docker.com",
+        "mac_docker_cmd": "brew install --cask --appdir=/Applications docker",
+        "windows_docker_download": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
+    },
+    "flutter": {
+        "android_cmd_tools": {
+            "darwin": "https://googledownloads.cn/android/repository/commandlinetools-mac-10406996_latest.zip",
+            "linux": "https://googledownloads.cn/android/repository/commandlinetools-linux-10406996_latest.zip",
+            "windows": "https://googledownloads.cn/android/repository/commandlinetools-win-10406996_latest.zip"
+        },
+        "android_cmd_tools_cn_url": "https://googledownloads.cn/android/repository/",
+        "android_cmd_toools_url": "https://dl.google.com/android/repository/",
+        "android_cn_url": "https://developer.android.google.cn/studio?hl=zh-cn",
+        "android_url": "https://developer.android.com/studio",
+        "default_urls": {
+            "darwin": "https://storage.flutter-io.cn/flutter_infra_release/releases/releases_macos.json",
+            "git_url": "https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git",
+            "hosted_url": "https://pub.flutter-io.cn",
+            "linux": "https://storage.flutter-io.cn/flutter_infra_release/releases/releases_linux.json",
+            "storage_base_url": "https://storage.flutter-io.cn",
+            "windows": "https://storage.flutter-io.cn/flutter_infra_release/releases/releases_windows.json"
+        },
+        "njuni_url": "https://mirrors.nju.edu.cn/flutter/flutter_infra_release/releases/",
+        "official_urls": {
+            "darwin": "https://storage.googleapis.com/flutter_infra_release/releases/releases_macos.json",
+            "git_url": "https://github.com/flutter/flutter.git",
+            "hosted_url": "https://pub.dartlang.org",
+            "linux": "https://storage.googleapis.com/flutter_infra_release/releases/releases_linux.json",
+            "storage_base_url": "https://storage.googleapis.com",
+            "windows": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json"
+        },
+        "tsing_hua_url": "https://mirrors.cnnic.cn/flutter/flutter_infra_release/releases/"
+    },
+    "github": {
+        "acceleration_urls": [
+            "https://gh.flyinbug.top/gh/",
+            "https://d.serctl.com/?dl_start"
+        ],
+        "down_proxy": "https://gh.flyinbug.top/gh/",
+        "win_git_urls": {
+            "386": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/PortableGit-2.42.0.2-32-bit.7z.exe",
+            "amd64": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/PortableGit-2.42.0.2-64-bit.7z.exe"
+        }
+    },
+    "go": {
+        "ali_repo_url": "https://mirrors.aliyun.com/golang/",
+        "compiler_urls": [
+            "https://golang.google.cn/dl/",
+            "https://go.dev/dl/",
+            "https://studygolang.com/dl"
+        ],
+        "proxies": [
+            "https://goproxy.cn,direct",
+            "https://repo.huaweicloud.com/repository/goproxy/,direct"
+        ],
+        "search_url": "https://pkg.go.dev/search?limit=100\u0026m=package\u0026q=%s#more-results"
+    },
+    "gpt": {
+        "WorkDir": "/Users/moqsien/data/gvc_installed_apps/gpt_files"
+    },
+    "gradle": {
+        "official_check_url": "https://gradle.org/release-checksums/",
+        "official_url": "https://gradle.org/releases/"
+    },
+    "gsudo": {
+        "github_url": "https://github.com/gerardog/gsudo/releases/latest/download/gsudo.portable.zip"
+    },
+    "gvc": {
+        "github_urls": {
+            "darwin_amd64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_darwin-amd64.zip",
+            "darwin_arm64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_darwin-arm64.zip",
+            "linux_amd64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_linux-amd64.zip",
+            "linux_arm64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_linux-arm64.zip",
+            "windows_amd64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_windows-amd64.zip",
+            "windows_arm64": "https://github.com/moqsien/gvc/releases/latest/download/gvc_windows-arm64.zip"
+        }
+    },
+    "gvc_proxy": {
+        "reverse_proxy_url": "https://gvc.1710717.xyz/proxy/"
+    },
+    "homebrew": {
+        "shell_script_url": "https://gitee.com/moqsien/gvc/raw/master/homebrew.sh",
+        "tsing_hua": {
+            "HOMEBREW_API_DOMAIN": "https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api",
+            "HOMEBREW_BOTTLE_DOMAIN": "https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles",
+            "HOMEBREW_BREW_GIT_REMOTE": "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
+            "HOMEBREW_CORE_GIT_REMOTE": "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
+            "HOMEBREW_PIP_INDEX_URL": "https://pypi.tuna.tsinghua.edu.cn/simple"
+        },
+        "ustc": {
+            "HOMEBREW_API_DOMAIN": "https://mirrors.ustc.edu.cn/homebrew-bottles/api",
+            "HOMEBREW_BOTTLE_DOMAIN": "https://mirrors.ustc.edu.cn/homebrew-bottles",
+            "HOMEBREW_BREW_GIT_REMOTE": "https://mirrors.ustc.edu.cn/brew.git",
+            "HOMEBREW_CORE_GIT_REMOTE": "https://mirrors.ustc.edu.cn/homebrew-core.git",
+            "HOMEBREW_PIP_INDEX_URL": "https://mirrors.ustc.edu.cn/pypi/web/simple"
+        }
+    },
+    "hosts": {
+        "host_filters": [
+            "github"
+        ],
+        "max_avg_rtt": 400,
+        "ping_count": 10,
+        "req_timeout": 30,
+        "source_urls": [
+            "https://raw.githubusercontent.com/JohyC/Hosts/main/MicrosoftHosts.txt",
+            "https://raw.githubusercontent.com/JohyC/Hosts/main/EpicHosts.txt",
+            "https://raw.githubusercontent.com/JohyC/Hosts/main/SteamDomains.txt",
+            "https://raw.githubusercontent.com/JohyC/Hosts/main/hosts.txt",
+            "https://raw.githubusercontent.com/ineo6/hosts/master/next-hosts",
+            "https://raw.githubusercontent.com/sengshinlee/hosts/main/hosts"
+        ],
+        "worker_num": 100
+    },
+    "java": {
+        "compiler_url": "https://www.oracle.com/java/technologies/downloads/",
+        "jdk_url": "https://www.injdk.cn/"
+    },
+    "julia": {
+        "base_url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin",
+        "mirror_urls": [
+            "https://mirrors.ustc.edu.cn/julia-releases/bin/versions.json",
+            "https://mirrors.nju.edu.cn/julia-releases/bin/versions.json"
+        ],
+        "pkg_server": "https://mirrors.tuna.tsinghua.edu.cn/julia",
+        "version_url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/versions.json",
+        "version_url_official": "https://julialang-s3.julialang.org/bin/versions.json"
+    },
+    "maven": {
+        "apache_url3": "https://dlcdn.apache.org/maven/maven-3/",
+        "apache_url4": "https://dlcdn.apache.org/maven/maven-4/",
+        "sha_url_pattern": "%s%s/binaries/apache-maven-%s-bin.tar.gz.sha512",
+        "url_pattern": "%s%s/binaries/apache-maven-%s-bin.tar.gz"
+    },
+    "neobox": {
+        "neobox_conf": {
+            "CloudflareConf": {
+                "CloudflareDomainFileUrl": "https://gitlab.com/moqsien/neobox_related/-/raw/main/cloudflare_domains.txt?ref_type=heads\u0026inline=false",
+                "CloudflareIPV4URL": "https://www.cloudflare.com/ips-v4",
+                "MaxGoroutines": 300,
+                "MaxLossRate": 0,
+                "MaxPingCount": 4,
+                "MaxRTT": 500,
+                "MaxSaveToDB": 1000,
+                "PortList": [
+                    443,
+                    8443,
+                    2053,
+                    2096,
+                    2087,
+                    2083
+                ],
+                "WireGuardConfDir": "/Users/moqsien/.gvc/backup"
+            },
+            "CountryAbbrevsUrl": "https://gitlab.com/moqsien/neobox_related/-/raw/main/country_names.json?ref_type=heads\u0026inline=false",
+            "DatabaseDir": "/Users/moqsien/.gvc/backup",
+            "DownloadUrl": "https://gitlab.com/moqsien/neobox_related/-/raw/main/conf.txt",
+            "GeoInfoDir": "/Users/moqsien/data/gvc_installed_apps/proxy_files/neobox_geoinfo",
+            "GeoInfoSumUrl": "https://gitlab.com/moqsien/gvc_resources/-/raw/main/files_info.json?ref_type=heads\u0026inline=false",
+            "GeoInfoUrls": {
+                "geoip.dat": "https://gitlab.com/moqsien/neobox_related/-/raw/main/geoip.dat",
+                "geoip.db": "https://gitlab.com/moqsien/neobox_related/-/raw/main/geoip.db",
+                "geosite.dat": "https://gitlab.com/moqsien/neobox_related/-/raw/main/geosite.dat",
+                "geosite.db": "https://gitlab.com/moqsien/neobox_related/-/raw/main/geosite.db"
+            },
+            "IPLocationQueryUrl": "https://www.fkcoder.com/ip?ip=%s",
+            "InboundPort": 2023,
+            "KeeperCron": "@every 3m",
+            "LogDir": "/Users/moqsien/data/gvc_installed_apps/proxy_files/neobox_logs",
+            "MaxPingAvgRTT": 600,
+            "MaxPingPackLoss": 10,
+            "MaxPingers": 120,
+            "MaxToSaveRTT": 2000,
+            "SocketDir": "/Users/moqsien/data/gvc_installed_apps/proxy_files/neobox_socket",
+            "VerificationCron": "@every 2h",
+            "VerificationPortRange": {
+                "Max": 9095,
+                "Min": 9035
+            },
+            "VerificationTimeout": 3,
+            "VerificationUrl": "https://www.google.com",
+            "WorkDir": "/Users/moqsien/data/gvc_installed_apps/proxy_files"
+        },
+        "neobox_conf_path": "/Users/moqsien/data/gvc_installed_apps/proxy_files/neobox_conf.json"
+    },
+    "nodejs": {
+        "compiler_url": "https://nodejs.org/dist/index.json",
+        "proxy_urls": [
+            "https://registry.npm.taobao.org",
+            "https://registry.npmmirror.com/",
+            "https://mirrors.huaweicloud.com/repository/npm/",
+            "https://registry.npmjs.org/"
+        ],
+        "release_url": "https://nodejs.org/download/release"
+    },
+    "nvim": {
+        "github_proxy": "https://ghproxy.com/",
+        "plugins_url": "https://gitlab.com/moqsien/gvc_resources/uploads/753afef9d38f8f6224d221770d25c9a3/nvim-plugins.zip",
+        "urls": {
+            "darwin": {
+                "ext": ".tar.gz",
+                "name": "nvim_macos",
+                "url": "https://github.com/neovim/neovim/releases/latest/download/nvim-macos.tar.gz"
+            },
+            "linux": {
+                "ext": ".tar.gz",
+                "name": "nvim_linux64",
+                "url": "https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz"
+            },
+            "windows": {
+                "ext": ".zip",
+                "name": "nvim_win64",
+                "url": "https://github.com/neovim/neovim/releases/latest/download/nvim-win64.zip"
+            }
+        }
+    },
+    "protobuf": {
+        "github_urls": {
+            "darwin": "https://github.com/protocolbuffers/protobuf/releases/download/v25.0/protoc-25.0-osx-universal_binary.zip",
+            "linux_amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v25.0/protoc-25.0-linux-x86_64.zip",
+            "linux_arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v25.0/protoc-25.0-linux-aarch_64.zip",
+            "windows": "https://github.com/protocolbuffers/protobuf/releases/download/v25.0/protoc-25.0-win64.zip"
+        },
+        "proto_gen_go_url": "google.golang.org/protobuf/cmd/protoc-gen-go@latest",
+        "proto_gen_grpc_url": "google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest"
+    },
+    "python": {
+        "pyenv_readline": [
+            "https://gitlab.com/moqsien/gvc_resources/uploads/06845bbd8f73ce5c24e1d4f5761829a1/readline-8.1.tar.gz",
+            "https://gitlab.com/moqsien/gvc_resources/uploads/5ae9516bd13038839b0aa102dada0a14/readline-8.2.tar.gz"
+        ],
+        "pyenv_unix": "https://github.com/pyenv/pyenv/archive/refs/heads/master.zip",
+        "pyenv_win": "https://github.com/pyenv-win/pyenv-win/archive/refs/heads/master.zip",
+        "pyenv_win_needed": "https://gitlab.com/moqsien/gvc_resources/uploads/45d0ad242f9abb45b5a09b9634d3be73/pyenv_win_needed.zip",
+        "pypi_proxies": [
+            "https://pypi.tuna.tsinghua.edu.cn/simple/",
+            "https://pypi.mirrors.ustc.edu.cn/simple/",
+            "http://mirrors.aliyun.com/pypi/simple/",
+            "http://pypi.douban.com/simple/"
+        ],
+        "python_build_url": "https://npm.taobao.org/mirrors/python/",
+        "python_build_urls": [
+            "https://registry.npmmirror.com/-/binary/python/",
+            "https://npm.taobao.org/mirrors/python/"
+        ]
+    },
+    "rust": {
+        "RUSTUP_DIST_SERVER": "https://mirrors.ustc.edu.cn/rust-static",
+        "RUSTUP_UPDATE_ROOT": "https://mirrors.ustc.edu.cn/rust-static/rustup",
+        "filename_unix": "rustup-init.sh",
+        "filename_win": "rustup-init.exe",
+        "url_unix": "https://sh.rustup.rs",
+        "url_win": "https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe"
+    },
+    "typst": {
+        "github_urls": {
+            "darwin_amd64": "https://github.com/typst/typst/releases/latest/download/typst-x86_64-apple-darwin.tar.xz",
+            "darwin_arm64": "https://github.com/typst/typst/releases/latest/download/typst-aarch64-apple-darwin.tar.xz",
+            "linux_amd64": "https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz",
+            "linux_arm64": "https://github.com/typst/typst/releases/latest/download/typst-aarch64-unknown-linux-musl.tar.xz",
+            "windows": "https://github.com/typst/typst/releases/latest/download/typst-x86_64-pc-windows-msvc.zip"
+        }
+    },
+    "vlang": {
+        "analyzer_url": {
+            "darwin_amd64": "https://github.com/v-analyzer/v-analyzer/releases/latest/download/v-analyzer-darwin-x86_64.zip",
+            "darwin_arm64": "https://github.com/v-analyzer/v-analyzer/releases/latest/download/v-analyzer-darwin-arm64.zip",
+            "linux": "https://github.com/v-analyzer/v-analyzer/releases/latest/download/v-analyzer-linux-x86_64.zip",
+            "windows": "https://github.com/v-analyzer/v-analyzer/releases/latest/download/v-analyzer-windows-x86_64.zip"
+        },
+        "vlang_url": {
+            "darwin": "https://github.com/vlang/v/releases/latest/download/v_macos.zip",
+            "linux": "https://github.com/vlang/v/releases/latest/download/v_linux.zip",
+            "windows": "https://github.com/vlang/v/releases/latest/download/v_windows.zip"
+        }
+    }
+}
