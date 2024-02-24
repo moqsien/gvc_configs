@@ -4,6 +4,7 @@ alefragnani.project-manager
 alexcvzz.vscode-sqlite
 aminer.codegeex
 banxi.go-snippets
+chaitanyashahare.lazygit
 clemenspeters.format-json
 dancheg97.grpc-clicker
 doggy8088.go-extension-pack
