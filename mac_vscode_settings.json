@@ -79,7 +79,7 @@
             "commands": [":split"] 
         },
         { 
-            "before": ["leader", "q"], 
+            "before": ["leader", "o"], 
             "commands": ["workbench.action.quickOpen"] 
         },
         { 
