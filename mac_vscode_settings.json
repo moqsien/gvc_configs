@@ -63,11 +63,11 @@
             "after": [ "leader", "leader", "leader", "b", "d", "w" ]
         },
         {
-            "before": [ "<S-h>" ],
+            "before": [ "<C-h>" ],
             "commands": [ ":bprevious" ]
         },
         {
-            "before": [ "<S-l>" ],
+            "before": [ "<C-l>" ],
             "commands": [ ":bnext" ]
         },
         { 
@@ -120,6 +120,14 @@
         }
     ],
     "vim.normalModeKeyBindings": [
+        {
+            "before": [ "leader", "w" ],
+            "commands": [ ":w!" ]
+        },
+        {
+            "before": [ "leader", "q" ],
+            "commands": [ ":q!" ]
+        },
         {
             "before": [ "g", "p", "d" ],
             "commands": [ "editor.action.peekDefinition" ]
