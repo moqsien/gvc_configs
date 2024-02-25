@@ -1,13 +1,14 @@
 [
+  // vscode终端相关快捷键
   {
     "key": "ctrl+shift+a",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+p",
-    "command": "workbench.action.problems.focus",
-    "when": "panelFocus"
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
   },
   {
     "key": "ctrl+shift+a",
@@ -15,9 +16,9 @@
     "when": "panelFocus"
   },
   {
-    "key": "ctrl+shift+b",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.problems.focus",
+    "when": "panelFocus"
   },
   {
     "key": "ctrl+shift+j",
@@ -34,47 +35,15 @@
     "when": "terminalFocus"
   },
   {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
-  },
-  {
-    "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "n",
-    "command": "explorer.newFile",
-    "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
-    "command": "renameFile",
-    "key": "r",
-    "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
-    "key": "shift+n",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
-  },
-  {
-    "key": "shift+alt+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
-  },
-  {
-    "command": "deleteFile",
-    "key": "d",
-    "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
     "key": "ctrl+shift+5",
     "command": "editor.emmet.action.matchTag"
   },
+  // 打开/关闭禅模式
   {
     "key": "ctrl+z",
     "command": "workbench.action.toggleZenMode"
   },
+  // 放大/缩小当前editor
   {
     "key": "ctrl+shift+left",
     "command": "workbench.action.increaseViewSize"
@@ -83,8 +52,113 @@
     "key": "ctrl+shift+right",
     "command": "workbench.action.decreaseViewSize"
   },
+  // 打开新窗口
   {
      "key": "alt+shift+n",
      "command": "workbench.action.newWindow"
+  },
+  // 文件浏览器相关
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  // 刷新文件浏览器
+  {
+    "key": "shift+r",
+    "command": "workbench.files.action.refreshFilesExplorer",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 重命名
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 新建文件
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 新建文件夹
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 删除
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 复制
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 剪切
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 粘贴
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  // 打开文件
+  {
+    "key": "o",
+    "command": "explorer.openAndPassFocus",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+  },
+  // 在新标签组打开文件
+  {
+    "key": "shift+o",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+  },
+  // 全局搜索后，在输入框按回车，即可聚焦到搜索结果列表
+  {
+    "key": "enter",
+    "command": "search.action.focusSearchList",
+    "when": "inSearchEditor && inputBoxFocus && hasSearchResult || inputBoxFocus && searchViewletVisible && hasSearchResult"
+  },
+  // 在搜索结果列表，只需按 esc，就可回到搜索输入框
+  {
+    "key": "escape",
+    "command": "workbench.action.findInFiles",
+    "when": "searchViewletVisible && hasSearchResult && searchViewletFocus"
+  },
+  // 在搜索输入框，只需按 esc，就可回到编辑器
+  {
+    "key": "escape",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "inSearchEditor && inputBoxFocus|| inputBoxFocus && searchViewletVisible"
+  },
+  // 在文件浏览界面，只需按 esc，就可回到编辑器
+  {
+    "key": "escape",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  // 全局搜索
+  {
+    "key":"ctrl+alt+f",
+    "command": "workbench.action.findInFiles",
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "inSearchEditor && inputBoxFocus|| searchViewletVisible"
   }
 ]
