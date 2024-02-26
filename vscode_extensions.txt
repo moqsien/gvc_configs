@@ -3,6 +3,7 @@ akamud.vscode-theme-onedark
 alefragnani.project-manager
 alexcvzz.vscode-sqlite
 aminer.codegeex
+andenetalexander.vim-cheatsheet
 banxi.go-snippets
 chaitanyashahare.lazygit
 clemenspeters.format-json
