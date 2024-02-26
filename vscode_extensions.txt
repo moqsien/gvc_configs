@@ -39,6 +39,7 @@ nhoizey.gremlins
 njpwerner.autodocstring
 nvarner.typst-lsp
 pinshengjuan.edk2-uni-formatter
+piotrpalarz.vscode-gitignore-generator
 pkief.material-icon-theme
 premparihar.gotestexplorer
 quicktype.quicktype
