@@ -28,6 +28,7 @@ liwei.relax-eyes-theme
 max-ss.cyberpunk
 mgt19937.typst-preview
 mhutchie.git-graph
+minherz.copyright-inserter
 moqsien.easynotes
 ms-azuretools.vscode-docker
 ms-python.debugpy
